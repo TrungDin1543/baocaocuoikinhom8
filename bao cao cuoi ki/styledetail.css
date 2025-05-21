@@ -1,0 +1,259 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+}
+
+.auth-container {
+    position: relative;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-container {
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: grey;
+    padding: 10px 20px;
+    border-radius: 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.product-detail {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.left-panel {
+    flex: 1;
+    text-align: center;
+}
+
+.left-panel .main-img {
+    width: 250px;
+    border-radius: 8px;
+}
+
+.thumbs {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.thumbs img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.right-panel {
+    flex: 2;
+}
+
+.features {
+    background: #e5f3e8;
+    padding: 15px;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.features li {
+    margin: 8px 0;
+}
+
+.colors {
+    margin: 20px 0;
+}
+
+.color-btn {
+    padding: 8px 12px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.price {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.strike {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.buy-btn {
+    background: #28a745;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.bonus {
+    background: #fffbe6;
+    padding: 15px;
+    border-left: 5px solid #ffc107;
+    border-radius: 5px;
+}
+
+.cart {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.cart h2 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.cart table {
+    width: 100%;
+}
+
+.cart table thead tr th :first-child {
+    text-align: center;
+}
+
+.cart table tr td {
+    border-bottom: 2px solid black;
+    padding: 12px 0;
+}
+
+.cart table thead tr th :last-child {
+    text-align: center;
+}
+
+.cart table tbody tr td :last-child {
+    text-align: center;
+}
+
+.product-items {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.product-item {
+    text-align: center;
+    margin-inline-start: 20px;
+    background-color: white;
+    padding: 12px;
+}
+
+.product-item img:hover {
+    width: 100%;
+    margin-bottom: 20px;
+    transform: scale(1.09);
+    transition: transform 0.3s linear;
+}
+
+.item-title {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+}
+
+.item-title:hover {
+    color: red;
+}
+
+.product-item button {
+    margin-top: 12px;
+    height: 30px;
+    padding: 0 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.cart {
+    position: fixed;
+    height: 100vh;
+    width: 400px;
+    right: -100%;
+    top: 0;
+    background-color: #ccc;
+    padding: 12px 20px;
+    overflow-y: scroll;
+    position: fixed;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.cart button {
+    margin-top: 12px;
+    height: 30px;
+    padding: 0 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.cart-icon i {
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background-color: #e3d5d5;
+    padding: 10px 20px;
+    border-radius: 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+    position: fixed;
+    z-index: 1000;
+}
+
+.cart i {
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: grey;
+    padding: 10px 20px;
+    border-radius: 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+}

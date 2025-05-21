@@ -1,0 +1,114 @@
+body {
+    background-image: url(image/dangnhapvadangki.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    min-height: 100vh;
+}
+
+.auth-container {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.col-md-6 {
+    background-color: grey;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 450px;
+    width: 100%;
+}
+
+.logo-container {
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: grey;
+    padding: 10px 20px;
+    border-radius: 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.logo-container:hover {
+    opacity: 1;
+}
+
+h5 {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper .icon {
+    position: absolute;
+    left: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.form-control {
+    background-color: #d6d0d0;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 15px 12px 40px;
+    color: white;
+    transition: ease 0.3s;
+}
+
+.form-control:placeholder {
+    color: grey;
+}
+
+.form-control:focus {
+    background-color: white;
+    color: black;
+    box-shadow: none;
+    border: none;
+}
+
+.btn-auth {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 10px;
+    text-transform: uppercase;
+    transition: ease 0, 3s;
+}
+
+.login-link {
+    font-size: 14px;
+    color: white;
+}
+
+.login-link a {
+    color: blue;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+    color: blue;
+}
